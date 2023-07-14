@@ -1,7 +1,7 @@
 #count the number of occurence of a word in a set of files
 if [ $# -eq 0 ] 
 then
-echo "syntax is <$0> <word> <file1> <file2> etc"
+echo "syntax is <$0> <word> <file1> <file2> ....."
 exit 1
 fi
 word=$1
@@ -20,4 +20,3 @@ shift
 done
 echo "number of occurence of words = $count"
 exit 0 
-
