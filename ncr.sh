@@ -29,4 +29,14 @@ nrf=$?
 dr=`expr $rf "*" $nrf`
 ncr=`expr $nf / $dr`
 echo "ncr = $ncr"
+***********************************************************
+output
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh ncr.sh
+enter value for n 
+7
+enter value for r
+3
+ncr = 35
+
 
