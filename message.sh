@@ -21,3 +21,13 @@ else
 echo "Good Night. Sleep tight!"
 fi
 fi
+*****************************************************************************************************************
+output
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh message.sh good
+Syntax error. Code will check the system Time.
+Syntax --> message.sh
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh message.sh 
+Good Afternoon
+
