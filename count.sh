@@ -24,3 +24,9 @@ then
 exec<$term
 fi
 exit 0
+***********************************************
+ksb@ksb-H410M-S2-V2:~/networking$ sh count.sh
+syntax is <count.sh> [ <filename> ] 
+ksb@ksb-H410M-S2-V2:~/networking$ sh count.sh count.sh
+Number of lines=26
+Number of words=70
