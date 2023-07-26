@@ -20,3 +20,11 @@ shift
 done
 echo "number of occurence of words = $count"
 exit 0 
+*************************************************************************8
+output
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh occurance.sh
+syntax is <occurance.sh> <word> <file1> <file2> .....
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh occurance.sh fi leap.sh count.sh
+number of occurence of words = 6
