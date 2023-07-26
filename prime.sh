@@ -31,7 +31,17 @@ done
  done
  echo "\n"
  exit 0  
-  
+******************************************************************8
+output
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh prime.sh
+syntax is <prime.sh> <no1> <no2>
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh prime.sh 5 20
+5,7,11,13,17,19,
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh prime.sh 20 5
+5,7,11,13,17,19,
 
 
 
