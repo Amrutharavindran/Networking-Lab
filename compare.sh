@@ -22,3 +22,22 @@ echo "Removed duplicate file"
 else
 echo "No duplicate file exists"
 fi
+**********************************************************8
+output
+-----
+ksb@ksb-H410M-S2-V2:~/networking$ sh compare.sh
+Enter a file name :: 
+sq
+Enter another file name :: 
+m2
+No duplicate file exists
+ksb@ksb-H410M-S2-V2:~/networking$ sh compare.sh file
+Syntax Error.
+Syntax --> compare.sh [filename] [filename]
+ksb@ksb-H410M-S2-V2:~/networking$ sh compare.sh
+Enter a file name :: 
+mca.txt
+Enter another file name :: 
+m2
+Removed duplicate file
+
