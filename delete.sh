@@ -22,3 +22,27 @@ echo "deleted the line containg the word linux"
 mv file1 $file
 rm file2
 exec < $term
+******************************************************
+output
+
+ksb@ksb-H410M-S2-V2:~/networking$ cat > li
+Linux is an operating system
+anfhidff
+LINUX njjfdsgs
+jdgjdg
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh delete.sh program
+Syntax error.
+Syntax is <delete.sh>
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh delete.sh 
+Enter the file name: 
+li
+deleted the line containg the word linux
+
+ksb@ksb-H410M-S2-V2:~/networking$ cat li
+anfhidff
+jdgjdg
+
+
+
