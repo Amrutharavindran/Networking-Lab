@@ -22,6 +22,16 @@ else
    echo "$year is not a leap year"
 fi
 
+*****************************************************************
+output 
+
+ksb@ksb-H410M-S2-V2:~/networking$ sh leap.sh
+Enter the year:
+2001
+ 2001 is not a leap year
+ksb@ksb-H410M-S2-V2:~/networking$ sh leap.sh 2004
+ 2004 is a leap year
+
 
 
 
