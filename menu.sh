@@ -101,4 +101,112 @@ echo "Enter to continue......."
 read x
 done
 
+output
+*********
+1.all ordinary files
+2.all directory files
+
+3.all special files
+4.all files readable to ugo
+
+5all files writeable to ugo
+6.all files executable to ugo
+
+7.all rwx files
+8.exit
+
+option :
+1
+Inputs.java
+Read.java
+ab
+ba
+hello.c
+hello.php
+menu.sh
+priorityQueues.java
+Enter to continue.......
+option :
+2
+Android
+AndroidStudioProjects
+amala
+docker
+dump
+networking
+nltkdata
+nsa
+scripts
+snap
+Enter to continue.......
+option :
+3
+Enter to continue.......
+option :
+4
+Inputs.java
+Read.java
+ab
+ba
+hello.c
+hello.php
+menu.sh
+priorityQueues.java
+Enter to continue.......
+option :
+5
+Inputs.java
+Read.java
+ab
+ba
+hello.c
+hello.php
+menu.sh
+priorityQueues.java
+Enter to continue......
+option :
+6
+Inputs.java
+Read.java
+ab
+ba
+hello.c
+hello.php
+menu.sh
+priorityQueues.java
+Enter to continue.......
+option :
+7
+Inputs.java
+Read.java
+ab
+ba
+hello.c
+hello.php
+menu.sh
+priorityQueues.java
+Enter to continue.......
+option :
+8
+ksb@ksb-H410M-S2-V2:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
